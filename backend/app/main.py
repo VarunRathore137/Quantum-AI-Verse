@@ -16,6 +16,6 @@ app.add_middleware(
 app.include_router(chat.router, prefix="/api/chat", tags=["chat"])
 app.include_router(quantum.router, prefix="/api/quantum", tags=["quantum"])
 
-@app.get("/health")
+@app.get("/")
 def health_check():
     return {"status": "healthy"}

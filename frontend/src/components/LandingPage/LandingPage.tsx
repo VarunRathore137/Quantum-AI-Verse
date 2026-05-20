@@ -24,7 +24,7 @@ export default function LandingPage({ onEnter }: LandingPageProps) {
             Quantum-AI Verse
           </div>
           <div className="flex items-center gap-4">
-            <button 
+            <button
               onClick={onEnter}
               className="gradient-btn text-[#00363a] rounded-full px-6 py-2 font-medium tracking-wide btn-glow hover:brightness-110 transition-all duration-300 text-sm"
             >
@@ -38,10 +38,10 @@ export default function LandingPage({ onEnter }: LandingPageProps) {
       <main className="flex-grow flex flex-col relative overflow-hidden">
         {/* Ambient Background */}
         <div className="absolute inset-0 z-0 pointer-events-none bg-slate-950">
-          <img 
-            alt="Cinematic space background" 
-            className="w-full h-full object-cover mix-blend-screen brightness-100 contrast-125 saturate-200 opacity-100" 
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQfZtRw7RkkrnQPYSoMOC6v2rzUJZEhOuUuNxBrQM0Wd8CZjnGZSA0CJZAzefnNjKZvlMsmgakE8GTKMIOvYexXe7uDP1jk4R1rVb_KaBceJKudiXEsO_XRhPmB9Msr3ZrrXt9Ej9lBCI9qJse7LpCzxRNu3i_25xji2F72_jDv9LbJnMS7UNtTILkjJXIMLGTrmdFHhewiy99DNTb7U8vajGUXDAGUdNOiHP42kthoHR6-rhXxBl2UFvstdmgs5gasATEK58q5g" 
+          <img
+            alt="Cinematic space background"
+            className="w-full h-full object-cover mix-blend-screen brightness-100 contrast-125 saturate-200 opacity-100"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQfZtRw7RkkrnQPYSoMOC6v2rzUJZEhOuUuNxBrQM0Wd8CZjnGZSA0CJZAzefnNjKZvlMsmgakE8GTKMIOvYexXe7uDP1jk4R1rVb_KaBceJKudiXEsO_XRhPmB9Msr3ZrrXt9Ej9lBCI9qJse7LpCzxRNu3i_25xji2F72_jDv9LbJnMS7UNtTILkjJXIMLGTrmdFHhewiy99DNTb7U8vajGUXDAGUdNOiHP42kthoHR6-rhXxBl2UFvstdmgs5gasATEK58q5g"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-[#020617] via-[#020617]/80 to-transparent"></div>
           <div className="absolute inset-0 bg-gradient-to-b from-slate-950/60 via-transparent to-transparent"></div>
@@ -54,17 +54,17 @@ export default function LandingPage({ onEnter }: LandingPageProps) {
               <span className="w-2 h-2 rounded-full bg-[#00f5ff] animate-pulse"></span>
               <span className="font-['Manrope'] text-xs tracking-[0.1em] uppercase text-[#b6b6bd]">System Online v2.4</span>
             </div>
-            
+
             <h1 className="font-['Space_Grotesk'] text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight text-[#e1e6ff] leading-[1.1] neon-glow">
               Quantum-AI Verse
             </h1>
-            
+
             <p className="font-['Manrope'] text-xl md:text-2xl text-[#b6b6bd] max-w-2xl mx-auto font-light">
               Bridging AI and Quantum Computing. Experience the celestial singularity where fluid intelligence meets infinite scale.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-8">
-              <button 
+              <button
                 onClick={onEnter}
                 className="text-[#00f5ff] hover:text-[#a5faff] transition-colors duration-300 font-medium px-8 py-4 flex items-center gap-2 group relative text-lg"
               >

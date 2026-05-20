@@ -10,6 +10,7 @@ class AssistantResponse(BaseModel):
     visualization: Optional[Dict[str, Any]] = None
     new_code: Optional[str] = None
     action: Optional[str] = None
+    sim_status: Optional[str] = None   # "local_sim" | "cloud_job" | "optimized" | "sim_error" | "cloud_error"
 
 class AssistantMessageRequest(BaseModel):
     message: str

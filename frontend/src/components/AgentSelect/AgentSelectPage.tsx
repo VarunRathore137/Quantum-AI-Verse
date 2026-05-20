@@ -113,7 +113,7 @@ export default function AgentSelectPage({ onSelect }: Props) {
         <AgentCard
           id="select-assistant"
           agent="assistant"
-          name="The Lab Assistant"
+          name="The Researcher Agent"
           tagline="Quantum Circuit Engineer"
           description="Design, optimize, and simulate quantum circuits. Get hands-on with circuit building, QASM code generation, and real quantum computation experiments."
           traits={['Circuit Design', 'QASM Code', 'Simulation']}

@@ -135,7 +135,7 @@ export default function App() {
         <div className="z-10 h-full">
           {/* Subtle glass effect behind chat to blend with background */}
           <div className="absolute inset-0 bg-[#080d1b]/80 backdrop-blur-md -z-10" />
-          <ChatContainer selectedAgent={selectedAgent} />
+          <ChatContainer selectedAgent={selectedAgent} setActiveTab={setActiveTab} />
         </div>
 
         {/* ── Right: Tabbed Panel ──────────────────────────────────── */}
